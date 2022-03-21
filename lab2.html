@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="lab2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Laayout page (Lab 1) </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="header ">
+                <div class="header_logo">
+                    <img src="dreamer.png" height="88px" alt="">
+                </div>
+                <h1> The Dreamer's Store</h1>
+
+
+
+
+                <a href="#"> <img src="googleplus.png" height="47px" class="icon1"></a>
+                <a href="#"> <img src="facebook.png" height="49px" class="icon2"></a>
+                <a href="#"> <img src="instagram.png" height="52px" class="icon3"></a>
+                <form id="form">
+                    <input type="search" id="query" name="q" placeholder="Search...">
+                    <button><i class="fa fa-search"></i></button>
+                </form>
+
+                <div class="center">
+  <button onclick="toggleForm()">Signup</button>
+</div>
+                
+
+                <div class="overlay-form">
+  <div class="close-btn" onclick="toggleForm()">&times;</div>
+  <h1>Create a new account</h1>
+  <p>Join our community. Let's set up your account</p>
+  <div class="form-element">
+    <label for="fullname">Fullname</label>
+    <input type="text" id="fullname">
+  </div>
+  <div class="form-element">
+    <label for="email">Email</label>
+    <input type="email" id="email">
+  </div>
+  <div class="form-element">
+    <label for="password-1">Password</label>
+    <input type="password" id="password-1">
+  </div>
+  <div class="form-element">
+    <label for="password-2">Confirm password</label>
+    <input type="password" id="password-2">
+  </div>
+  <div class="form-element">
+    <button>Signup</button>
+  </div>
+</div>
+
+
+            </div>
+            <div class="row">
+                <div class="aside">
+                    <div class="category"> Electronics</div>
+                    <div class="category">Health & Beauty</div>
+                    <div class="category"> Men's Fashion</div>
+                    <div class="category"> Women's Fashion</div>
+                    <div class="category"> Sports</div>
+                    <div class="category"> Groceries</div>
+                    <div class="scrollbar" id="scrollbar">
+                        <h2 text-align="center">News Bar</h2>
+                        ⭐️HAPPY DASHAIN ⭐️SALE ⭐️NEW
+                        ARRIVALS
+                        <span id="dots">...</span>
+                        ⭐️DISCOUNT ⭐️CELEBRATIONS
+                        ⭐️FESTIVAL
+                        <p>The Dreamer's Store is one stop
+                            destination for all your shopping needs .
+                            The Dreamer's Store is one stop
+                            destination for all your shopping needs .                            
+                            <span id="more">
+                                The Dreamer's Store is one stop
+                                destination for all your shopping needs .
+                                The Dreamer's Store is one stop
+                                destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+
+                            </span>
+                        </p>
+                        </br>
+                        <button onclick="myFunction()" id="myBtn">Read more</button>
+                    </div>
+                </div>
+                <div class="main2">
+
+                   <img src="ribbon.png" class="ribbon">
+
+                    <div class="banner">
+                       
+                        <div class="mySlides fade">
+                           <!--  <div class="numbertext">1 / 3</div> -->
+                                <img src="banner.jpg" style="width:100%">
+                            <div class="text">Caption Text</div>
+                            </div>
+                       
+                            <div class="mySlides fade">
+                                <!-- <div class="numbertext">2 / 3</div> -->
+                                    <img src="banner1.jpg" height="415px" style="width:100%">
+                                <div class="text">Caption Two</div>
+                            </div>
+                      
+                             <div class="mySlides fade">
+                                <!-- <div class="numbertext">3 / 3</div> -->
+                                    <img src="banner2.jpg" height="415px" style="width:100%">
+                                 <div class="text">Caption Three</div>
+                            </div>
+                       
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+                    <b>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <a href="thumbnail1.html"><img src="img1.jpg" alt="" class="thumbnail">
+                            </div>
+                            Digital Print Sweatshirt </br> Price: 780 Rs/-
+                            </a>
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img17.jpg" alt="" class="thumbnail">
+                            </div>
+                            Ladies Hoodie Black <br> Price: 650 Rs /-
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img4.jpg" alt="" class="thumbnail">
+                            </div>
+
+                            Anime Print Hoodie <br> Price: 1100 Rs /-
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img13.jpg" alt="" class="thumbnail">
+                            </div>
+                            Anime Print Hoodie <br> Price: 1100 Rs /-
+                        </div></br>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img15.jpg" alt="" class="thumbnail">
+                            </div>
+                            Basketball Hoodie <br> Price: 870 Rs /-
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img24.jpg" alt="" class="thumbnail">
+                            </div>
+                            Digital Print Hoodie <br> Price: 1400 Rs /-
+                        </div>
+                        <div class="category" align="center">
+
+                            <div class="zoom">
+                                <img src="img18.jpg" alt="" class="thumbnail">
+                            </div>
+                            Pada print Hoodie <br> Price: 1190 Rs /-
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img19.jpg" alt="" class="thumbnail">
+                            </div>
+                            Hoodie <br> Price: 1250 Rs /-
+                        </div><br>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img20.jpg" alt="" class="thumbnail">
+                            </div>
+                            SingleRoad Mens Hoodie <br> Price: 1300 Rs/-
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img23.jpg" alt="" class="thumbnail">
+                            </div>
+
+                            Haikyuu Hoodie <br> Price: 1100 Rs /-
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img22.jpg" alt="" class="thumbnail">
+                            </div>
+                            Nike Boys Hoodie <br> Price: 1000 Rs /-
+                        </div>
+                        <div class="category" align="center">
+                            <div class="zoom">
+                                <img src="img21.webp" alt="" class="thumbnail">
+                            </div>
+                            Girls Hoodie <br> Price: 1500 Rs /-
+                        </div>
+                    </b>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Footer@2020</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var sb = document.getElementById("scrollbar");
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+            if (dots.style.display === "none") {
+                sb.className = "scrollbar hide";
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                sb.className = "scrollbar show";
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function toggleForm(){
+  document.body.classList.toggle('activeForm');
+}
+    </script>
+</body>
+
+</html>

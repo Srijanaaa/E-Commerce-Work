@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="lab2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Digital Print Sweatshirt </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="header ">
+                <div class="header_logo">
+                    <img src="dreamer.png" height="88px" alt="">
+                </div>
+                <h1> The Dreamer's Store</h1>
+                <a href="#"> <img src="googleplus.png" height="47px" class="icon1"></a>
+                <a href="#"> <img src="facebook.png" height="49px" class="icon2"></a>
+                <a href="#"> <img src="instagram.png" height="52px" class="icon3"></a>
+                <form id="form">
+                    <input type="search" id="query" name="q" placeholder="Search...">
+                    <button><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="row">
+                <div class="aside">
+                    <div class="category"> Electronics</div>
+                    <div class="category">Health & Beauty</div>
+                    <div class="category"> Men's Fashion</div>
+                    <div class="category"> Women's Fashion</div>
+                    <div class="category"> Sports</div>
+                    <div class="category"> Groceries</div>
+                    <div class="scrollbar" id="scrollbar">
+                        <h2 text-align="center">News Bar</h2>
+                        ⭐️HAPPY DASHAIN ⭐️SALE ⭐️NEW
+                        ARRIVALS
+                        <span id="dots">...</span>
+                        ⭐️DISCOUNT ⭐️CELEBRATIONS
+                        ⭐️FESTIVAL
+                        <p>The Dreamer's Store is one stop
+                            destination for all your shopping needs .
+                            The Dreamer's Store is one stop
+                            destination for all your shopping needs .                            
+                            <span id="more">
+                                The Dreamer's Store is one stop
+                                destination for all your shopping needs .
+                                The Dreamer's Store is one stop
+                                destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+                                The Dreamer's Store is one
+                                stop destination for all your shopping needs .
+
+                            </span>
+                        </p>
+                        </br>
+                        <button onclick="myFunction()" id="myBtn">Read more</button>
+                    </div>
+                </div>
+                <div class="main2">
+                    <div class="row">
+                        <div class="col1">
+                            <img src="img1.jpg" alt="" class="single-thumbnail">
+                        </div>
+                        <div class="col2">
+                            <h1 text-align="center"> Digital Print Sweatshirt</h1>
+                            <p> Brand: No Brand </p>
+                            <hr>
+                            <strong>
+                                <h2>Rs: 780 /-</h2>
+                            </strong>
+                            <h3>Quantity
+                                <input type="button" value="-"> 1
+                                <input type="button" value="+">
+                            </h3>
+                            <br><br>
+                            <input type="button" value="Buy Now" class="button1">
+                            <input type="button" value="Add to cart" class="button2">
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <p><b> Delivery Options</b> </p>
+                        <i class="fa fa-map-marker"></i> Location
+                        <hr></br>
+                        <i class="fas fa-truck"></i> Home Delivery
+                        <hr></br>
+                        <i class="fas fa-money-bill"></i> Cash on Delivery
+                        <hr><br>
+                        <p> <b> Return & Warrenty </b></p>
+                        7 Days Returns<br>
+                        <i>Change of mind is not applicable</i>
+                        <hr>
+                        Warranty not available
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Footer@2020</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var sb = document.getElementById("scrollbar");
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+            if (dots.style.display === "none") {
+                sb.className = "scrollbar hide";
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                sb.className = "scrollbar show";
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+</body>
+
+</html>
